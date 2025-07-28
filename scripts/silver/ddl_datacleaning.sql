@@ -71,7 +71,8 @@ BEGIN
 					,[cst_gndr]
 					,[cst_create_date]
 					,ROW_NUMBER() OVER(PARTITION BY cst_id ORDER BY cst_create_date DESC) AS row_id
-			FROM [Datawarehouse2].[bronze].[crm_cust_info])t
+			FROM [Datawarehouse2].[bronze].[crm_cust_info]
+				WHERE cst_id IS NOT NULL)t
 			WHERE row_id = 1;
 			SET @end_time = GETDATE();
 
