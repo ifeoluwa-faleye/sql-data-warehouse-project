@@ -101,7 +101,5 @@ This project is licensed under the [MIT License](LICENSE) and inspired by **Data
 Hi there! I'm **Ifeoluwa Faleye**, also known as **Data Evangelist**. I’m a Data professional who is building data literacy across organizations and online through my content creation platform - helping professionals unlock the power of data in their daily work
 Let's stay in touch! Feel free to connect with me on the following platforms:
 
-[![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@data_evangelist)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ifeoluwa-faleye-32bb41134/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/ifeoluwa-faleye-32bb41134/) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@@dataevangelist) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@dataevangelistx) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@@data_evangelist) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:datawithife@gmail.com) 
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.sekelhive.com/)
-[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=substack&logoColor=white)](https://www.tiktok.com/@dataevangelist)
