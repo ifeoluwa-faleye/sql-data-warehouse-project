@@ -1,0 +1,9 @@
+CREATE DATABASE Datawarehouse3;
+GO 
+USE Datawarehouse3;
+GO
+CREATE SCHEMA Bronze;
+GO
+CREATE SCHEMA Silver;
+GO
+CREATE SCHEMA Gold;
