@@ -30,3 +30,27 @@ SELECT
 FROM Bronze.crm_cust_info
 WHERE cst_id IS NOT NULL)t 
 WHERE cust_rank = 1
+
+SELECT prd_id
+      ,prd_key
+      ,REPLACE(SUBSTRING(prd_key, 1, 5), '-', '_') AS cat_id
+      ,SUBSTRING(prd_key, 7, LEN(prd_key)) AS prd_key
+      ,prd_nm
+      ,prd_cost
+      ,prd_line
+      ,prd_start_dt
+      ,prd_end_dt
+FROM
+(
+SELECT
+    prd_id
+      ,prd_key
+      ,prd_nm
+      ,prd_cost
+      ,prd_line
+      ,prd_start_dt
+      ,prd_end_dt
+    ,COUNT(prd_id) OVER(PARTITION BY prd_id) AS unique_prd
+FROM Bronze.crm_prd_info
+)t
+WHERE unique_prd = 1
